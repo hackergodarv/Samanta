@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_application_1/pages/game.dart';
 //import 'package:flutter_application_1/pages/home_page.dart';
 //import 'package:flutter_application_1/pages/login.dart';
 import 'package:flutter_application_1/pages/password_reset.dart';
@@ -14,7 +15,7 @@ class MainApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const MaterialApp(
-      home: Password_Reset()
+      home: GamePage()
         );
   }
 }
